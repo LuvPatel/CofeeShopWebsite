@@ -425,21 +425,6 @@ section{
     color:#fff;
 }
 
-@keyframes status{
-    0%{
-        opacity: 1;
-        pointer-events: all;
-    }
-    90%{
-        opacity:1;
-        pointer-events: all;
-    }
-    100%{
-        opacity: 0;
-        pointer-events: none;
-    }
-}
-
 .contact .row form .inputBox{
     display: flex;
     align-items: center;
