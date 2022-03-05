@@ -424,16 +424,7 @@ section{
     font-size: 3.5rem;
     color:#fff;
 }
-#status{
-    margin-top: 10px;;
-    color : #ffffff;
-}
-#status.success{
-    background-color: rgba(211,210,0);
-}
-#status.error{
-    background-color: rgba(250,129,92);
-}
+
 @keyframes status{
     0%{
         opacity: 1;
@@ -472,7 +463,14 @@ section{
     text-transform: none;
     background:none;
 }
-
+.contact .row form .inputBox textarea{
+    width: 100%;
+    padding:2rem;
+    font-size: 1.7rem;
+    color:#fff;
+    text-transform: none;
+    background:none;
+}
 .blogs .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -654,7 +652,9 @@ section{
     .home .content p{
         font-size: 1.5rem;
     }
-
+    .contact .row form .inputBox{
+        width: 350px;
+    }
 }
 
 @media (max-width:450px){
@@ -662,5 +662,7 @@ section{
     html{
         font-size: 50%;
     }
-
+    .contact .row form .inputBox{
+        width: 250px;
+    }
 }
