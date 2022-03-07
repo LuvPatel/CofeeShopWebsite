@@ -223,15 +223,15 @@ section{
 .home .content h3{
     font-size: 6rem;
     text-transform: uppercase;
-    color:#fff;
+    color:#dfad6c;
 }
 
 .home .content p{
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: lighter;
     line-height: 1.8;
     padding:1rem 0;
-    color:#eee;
+    color:#ffffff;
 }
 
 .about .row{
@@ -255,7 +255,7 @@ section{
 
 .about .row .content h3{
     font-size: 3rem;
-    color:#fff;
+    color:#dfad6c;
 }
 
 .about .row .content p{
@@ -432,7 +432,7 @@ section{
 .contact .row form h3{
     text-transform: uppercase;
     font-size: 3.5rem;
-    color:#fff;
+    color:#dfad6c;
 }
 
 .contact .row form .inputBox{
